@@ -26,7 +26,6 @@ public class Controller {
         // добавление строки в столбик (имя)
         nameColumn.setCellValueFactory(cellData ->
                 cellData.getValue().nameProperty()) ;
-
         // добавление строки в столбик (цена)
         costColumn.setCellValueFactory(cellData ->
                 cellData.getValue().costProperty()) ;
@@ -36,7 +35,6 @@ public class Controller {
             sumCost += e.cost.getValue();
         }
         sum.setText("Итого: "+sumCost+" руб."); // вывод затрат
-
         // добавление строки в столбик (цена)
         categoryColumn.setCellValueFactory(cellData ->
                 cellData.getValue().categoryOfExpensesProperty()) ;

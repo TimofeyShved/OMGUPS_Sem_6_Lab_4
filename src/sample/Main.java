@@ -26,7 +26,6 @@ public class Main extends Application {
         primaryStage.show(); // показать форму
     }
 
-
     public static void main(String[] args) {
         launch(args);
     }
